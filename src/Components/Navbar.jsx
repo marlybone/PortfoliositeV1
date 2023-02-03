@@ -16,8 +16,8 @@ const Navbar = () => {
          <NavItems>
             <a className="items" href="#home"> Home </a>
             <a className="items" href="#about"> About </a>
-            <a className="items" href="projects"> Projects </a>
-            <a className="items" href="contact"> Contact </a>
+            <a className="items" href="#projects"> Projects </a>
+            <a className="items" href="#contact"> Contact </a>
 
           </NavItems>
       </Navbar>
