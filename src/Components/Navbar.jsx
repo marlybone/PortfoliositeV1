@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react'
 
 const NavButton = Styled.button`
   border: 2px solid red;
-  margin-right: 5%;
+  margin-right: 8%;
 
   @media (min-width: 748px) {
     display: none;
@@ -16,12 +16,13 @@ const Nav = Styled.nav`
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
+  top: 0;
 
 
   @media (max-width: 748px) {
     justify-content: flex-start;
     display: flex;
-    font-size: 14px;
+    font-size: 15px;
     position: fixed;
   
     
