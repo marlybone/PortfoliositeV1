@@ -1,7 +1,7 @@
 :root {
   margin-left: 300px;
   margin-right: 300px;
-  color: black;
+  background-color: #022131;
 }
 
 @media (max-width: 748px) {

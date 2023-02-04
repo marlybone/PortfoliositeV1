@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react'
 
 const NavButton = Styled.button`
   border: 2px solid red;
+  margin-right: 5%;
 
   @media (min-width: 748px) {
     display: none;
@@ -21,6 +22,8 @@ const Nav = Styled.nav`
     justify-content: flex-start;
     display: flex;
     font-size: 14px;
+    position: fixed;
+  
     
     &.open {
       transform: translateX(0%);
@@ -42,11 +45,11 @@ const NavItems = Styled.ul`
 const NavLink = Styled.a`
   text-decoration: none;
   padding: 10px;
-  margin: 0 auto;
-  color: black;
+  margin: 5%;
+  color: white;
 
   @media(max-width: 748px){
-    
+  margin: 0 auto;
   }
 `;
 const Navbar = () => {
