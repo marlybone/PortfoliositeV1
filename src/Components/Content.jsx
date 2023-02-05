@@ -1,11 +1,11 @@
 import React from 'react'
-import Styled from 'styled-components'
+import Styled from 'styled-components';
 
    const ContentDiv = Styled.div`
-     margin-top: 20%;
+     margin-top: 25%;
+     color:white;
 
      @media (max-width: 748px){
-
      align-items: center;
      align-content: center;
      display: flex;
@@ -21,6 +21,19 @@ img {
   
     @media (max-width: 748px){
     }
+}
+h1 {
+
+  @media (max-width: 748px){
+   font-size: 50px;
+    }
+}
+h2 {
+  @media (max-width: 748px) {
+   display: flex;
+   align-self: flex-start;
+   margin: 0 auto;
+  }
 }
      
     `;
