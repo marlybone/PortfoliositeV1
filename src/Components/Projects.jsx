@@ -1,5 +1,6 @@
 import React from 'react'
 import Styled from 'styled-components'
+import Styles from './Styles'
 
 const GridContainer = Styled.div`
  display: grid;
