@@ -64,7 +64,7 @@ const Content = () => {
       <h1>Marlon Stevenson.</h1>
       <h2>Web Developer.</h2>
       <h3>Javascript | React | CSS | HTML </h3>
-      <p>Description, short, to the point</p>     
+      <p>snappy description</p>     
     </ContentDiv>
   )
 }
