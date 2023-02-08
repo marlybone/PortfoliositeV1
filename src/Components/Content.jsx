@@ -11,6 +11,7 @@ const ContentDiv = Styled.div`
    align-content: center;
    display: flex;
    flex-direction: column;
+   margin-bottom: 10%;
 }
 
 img {
@@ -64,7 +65,7 @@ const Content = () => {
       <h1>Marlon Stevenson.</h1>
       <h2>Web Developer.</h2>
       <h3>Javascript | React | CSS | HTML </h3>
-      <p>snappy description</p>     
+      <p>lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.lorem ipsum des qi xi dow.</p>     
     </ContentDiv>
   )
 }

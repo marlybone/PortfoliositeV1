@@ -5,14 +5,21 @@ import { faGithub , faTwitter , faCodepen , faLinkedin } from '@fortawesome/free
 
 
 const SideBar = Styled.aside`
+  
+  
   @media (max-width: 748px){
    bottom: 0;
+   display: flex;
+   position: relative;
+   flex-wrap: no-wrap;
+   justify-content: space-between; 
  }
 `;
 
 const Links = Styled.a`
   @media (max-width: 748px){
-  
+  padding: 15px;
+  font-size: 1.3em;
  }
 `;
 
