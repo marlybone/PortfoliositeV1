@@ -31,50 +31,38 @@ const Item1 = Styled(GridItem)`
  }
 `;
 
-const Item2 = Styled(GridItem)`
- @media (max-width: 748px){
-  
- }
-`;
-
-const Item3 = Styled(GridItem)`
- @media (max-width: 748px){
-  
- }
-`;
-
 const data = [
   {
     title: 'PlaceServices',
-    description: '',
-    github: '',
-    techs: '',
+    description: 'i',
+    github: 'i',
+    techs: 'i',
   },
   {
     title: 'PlaceServices',
-    description: '',
-    github: '',
-    techs: '',
+    description: 'hi',
+    github: 'i',
+    techs: 'i',
   },
   {
     title: 'PlaceServices',
-    description: '',
-    github: '',
-    techs: '',
+    description: 'hi',
+    github: 'hi',
+    techs: 'hi',
   },
   {
     title: 'PlaceServices',
-    description: '',
-    github: '',
-    techs: '',
+    description: 'hi',
+    github: 'hi',
+    techs: 'hi',
   },
 ];
 
 const Box = ({title, description, github, techs}) => (
   <Item1>
-    <h1>${title}</h1>
-    <p>${description}</p>
-    <a href={github}></a>
+    <h1>{title}</h1>
+    <p>{description}</p>
+    <a href={github}><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a>
     <h4>{techs}</h4>
   </Item1>
 );
