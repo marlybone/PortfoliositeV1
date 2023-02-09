@@ -1,32 +1,7 @@
 import React from 'react'
 import Styled from 'styled-components'
-
-const data = [
-  {
-    title: 'PlaceServices',
-    description: '',
-    github: '',
-    techs: '',
-  },
-  {
-    title: 'PlaceServices',
-    description: '',
-    github: '',
-    techs: '',
-  },
-  {
-    title: 'PlaceServices',
-    description: '',
-    github: '',
-    techs: '',
-  },
-  {
-    title: 'PlaceServices',
-    description: '',
-    github: '',
-    techs: '',
-  },
-];
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const GridContainer = Styled.div`
  display: grid;
@@ -68,9 +43,39 @@ const Item3 = Styled(GridItem)`
  }
 `;
 
-const box = ({title, description, github, techs}) => (
+const data = [
+  {
+    title: 'PlaceServices',
+    description: '',
+    github: '',
+    techs: '',
+  },
+  {
+    title: 'PlaceServices',
+    description: '',
+    github: '',
+    techs: '',
+  },
+  {
+    title: 'PlaceServices',
+    description: '',
+    github: '',
+    techs: '',
+  },
+  {
+    title: 'PlaceServices',
+    description: '',
+    github: '',
+    techs: '',
+  },
+];
+
+const Box = ({title, description, github, techs}) => (
   <Item1>
-    
+    <h1>${title}</h1>
+    <p>${description}</p>
+    <a href={github}></a>
+    <h4>{techs}</h4>
   </Item1>
 );
 
@@ -78,9 +83,15 @@ const Projects = () => {
 
   return(
     <GridContainer>
-      <Item1></Item1>
-      <Item2></Item2>
-      <Item3></Item3>
+      {data.map(item => (
+      <Box 
+        key={item.title}
+        title={item.title}
+        description={item.description}
+        github={item.github}
+        techs={item.techs}
+        />
+      ))}
     </GridContainer>
   );
 }
