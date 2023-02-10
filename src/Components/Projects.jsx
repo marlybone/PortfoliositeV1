@@ -33,25 +33,25 @@ const Item1 = Styled(GridItem)`
 
 const data = [
   {
-    title: 'PlaceServices',
+    title: 'PlaceServices Google API',
     description: 'i',
     github: 'i',
     techs: 'i',
   },
   {
-    title: 'PlaceServices',
+    title: 'Tic Tac Toe',
     description: 'hi',
     github: 'i',
     techs: 'i',
   },
   {
-    title: 'PlaceServices',
+    title: 'WeatherApp',
     description: 'hi',
     github: 'hi',
     techs: 'hi',
   },
   {
-    title: 'PlaceServices',
+    title: 'Currency Converter',
     description: 'hi',
     github: 'hi',
     techs: 'hi',
