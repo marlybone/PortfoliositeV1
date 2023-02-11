@@ -71,6 +71,7 @@ const Projects = () => {
 
   return(
     <GridContainer>
+      <h1>Projects</h1>
       {data.map(item => (
       <Box 
         key={item.title}
